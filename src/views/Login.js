@@ -14,7 +14,6 @@ const Login = (props) => {
     const [loginMessage, setLoginMessage] = useState('');
 
     const handleInputChange = (e) => {
-        console.log(e.target.value);
         const target = e.target;
         const name = target.name;
 
@@ -51,7 +50,6 @@ const Login = (props) => {
             props.setUser(res.data);
             localStorage.setItem('user', JSON.stringify(res.data));
             
-            console.log(res.data);
         })
         .catch((error) => {
             console.error(error);

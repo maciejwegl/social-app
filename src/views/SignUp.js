@@ -154,7 +154,6 @@ const SignUp = (props) => {
             !validationErrors.confirmPassword
         );
 
-
     };
 
     const handleInputChange = (e) => {
@@ -182,8 +181,6 @@ const SignUp = (props) => {
         })
         .then((res) => {
             
-            console.log(res.data);
-
             let resData = res.data;
 
             if(resData.signedup) {
@@ -201,12 +198,7 @@ const SignUp = (props) => {
         .catch((error) => {
             console.error(error);
         });
-
-
-        console.log('wysyłanie');
     }
-
-    
 
 
     return (

@@ -51,8 +51,6 @@ const Home = (props) => {
         getLatestPosts();
     }, [props.user]);
 
-    console.log(posts);
-
     return (
         <div className="home">
             {props.user && <AddPost getNewPosts={getNewPosts} />}

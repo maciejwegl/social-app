@@ -32,8 +32,6 @@ const Follow = (props) => {
         });
     }
 
-    console.log(recommendations);
-
     return (
         <div className="followed">
             {/* <div className='followedHeader'>
