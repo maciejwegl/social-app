@@ -1,0 +1,83 @@
+.signup {
+    width: 40%;
+    min-height: 30vh;
+    border: 1px solid #fff;
+    margin: 30px auto;
+    padding: 20px 20px 40px 20px;
+}
+
+
+.beforeSignedUp h2 {
+    color: #fff;
+}
+
+.beforeSignedUp form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px 0;
+}
+
+.beforeSignedUp form h3 {
+    color: #fff;
+    font-size: 0.9em;
+    border-bottom: 1px solid red;
+}
+
+.beforeSignedUp form input {
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+}
+
+.signupBtn {
+    width: 30%;
+    font-size: 0.9em;
+    padding: 8px;
+    margin: 15px;
+}
+
+.signupBtn:hover {
+    font-size: 0.8em;
+}
+
+.linkToLogin {
+    width: 100%;
+    color: #fff;
+}
+
+.signupErrors {
+    color:crimson;
+}
+
+.signedUpWindow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #d4d4d4;
+    padding: 20px;
+}
+
+.signedUpWindow h2 {
+    margin: 50px auto;
+    color: #fff;
+}
+
+.signedUpWindow h3 {
+    margin: 30px;
+    font-weight: 400;
+}
+
+.signedUpWindow a {
+    width: 40%;
+}
+
+.signedUpWindow button {
+    width: 80%;
+    font-size: 0.9em;
+    padding: 8px;
+}
+
+
+

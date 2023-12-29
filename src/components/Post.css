@@ -1,0 +1,110 @@
+.post {
+    color: #787878;
+    border: 1px solid #353535;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+.post:hover {
+    background-color: rgb(43, 42, 42);
+}
+
+.avatar {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+}
+
+.avatar img {
+    max-width: 70%;
+    border-radius: 25px;
+}
+
+.postData {
+    width: 80%;
+}
+
+.postMeta {
+    display: flex;
+    justify-content: space-between;
+}
+
+.postContent {
+    margin: 20px auto;
+    text-align: left;
+
+}
+
+.likes {
+    text-align: right;
+    padding: 0 20px;
+}
+
+.deleteMessage {
+    padding: 10px 30px;
+    position: fixed;
+    color: #d4d4d4;
+    top: 50%;
+    left: 50%;
+    background-color: #343333;
+}
+
+.deleteMessage button {
+    width: 80px;
+    font-size: 0.7em;
+    margin: 10px;
+}
+
+.deleteMessage button:hover {
+    background-color: #787878;
+    font-size: 0.6em;
+}
+
+.btnDeletePost, .btnUnfollow {
+    font-size: 0.7em;
+    padding: 6px 12px;
+    margin: 0 30px;
+    min-width: 15%;
+}
+
+.btnDeletePost:hover, .btnUnfollow:hover {
+    font-size: 0.6em;
+}
+
+
+
+.btnLike {
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    margin: 0 3px;
+    font-size: 1em;
+    line-height: 1em;
+    padding: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.like {
+    color: royalblue;
+}
+
+.like:hover {
+    border: 1px solid royalblue;
+}
+
+.dislike {
+    color: crimson;
+}
+
+.dislike:hover {
+    border: 1px solid crimson;
+}
+

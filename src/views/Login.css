@@ -1,0 +1,38 @@
+
+.login {
+    width: 40%;
+    height: 60vh;
+    border: 1px solid #fff;
+    margin: 30px auto;
+    padding: 30px;
+}
+
+.login h2 {
+    color: #fff;
+}
+
+.login form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px 0;
+}
+
+.login form h3 {
+    color: #fff;
+    font-size: 0.9em;
+    border-bottom: 1px solid red;
+}
+
+.login form input {
+    width: 80%;
+    margin: 20px;
+    padding: 10px;
+    border: none;
+}
+
+.loginBtn {
+    font-size: 1em;
+    padding: 8px 40px;
+}
+

@@ -1,0 +1,22 @@
+.newPost {
+    width: 100%;
+    padding: 20px 0;
+
+}
+
+.newPost textarea {
+    padding: 8px 20px;
+    width: 90%;
+    height: 12vh;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.1em;
+    resize: vertical;
+}
+
+
+
+.newPost button {
+    padding: 6px 40px;
+    margin: 15px 50px;
+}
